@@ -67,3 +67,41 @@ void test_age(int age) {
       throw new FormatException(); 
    } 
 }
+__________________________________________________________________________________
+class Age implements Exception { 
+  String error() => "Don't touch, your age is less than 16 :("; 
+} 
+  
+void main() { 
+  int age1 = 20; 
+  int age2 = 10; 
+  int age3 = 100;  
+  try{ 
+    // Checking Age and 
+    // calling if the 
+    // exception occur 
+    check(age1); 
+    check(age2); 
+    check(age3);
+      
+  } 
+  catch(e){ 
+    // Printing error 
+    print(e.error()); 
+  } 
+} 
+  
+// Checking Age 
+void check(int age){ 
+  if(age < 16){ 
+    throw new Age(); 
+  } 
+  else
+  { 
+    print("As your age is above '16' you are eligible to use Smart Phone"); 
+    
+  } 
+ 
+}
+
+  
