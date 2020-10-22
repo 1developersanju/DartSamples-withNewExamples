@@ -76,4 +76,31 @@ continue;
   print (i);
 }
 }
+______________________________________________-________--- _____________
+
+//this keyword
+
+class Abc { 
+  
+    // Creating an instance variable 
+    String app_info; 
+  
+    // Creating a parameterized constructor 
+    Abc(String info) 
+    { 
+        // Calling instance variable using this keyword. 
+        this.app_info = info; 
+    } 
+    void printInfo() 
+    { 
+        print("Welcome to $app_info"); 
+    } 
+} 
+  
+void main() 
+{ 
+    Abc hmm = new Abc("Petromax Prime"); 
+    // Calling method 
+    hmm.printInfo(); 
+} 
 
