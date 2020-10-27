@@ -79,3 +79,31 @@ void main() {
    var res = n1 ?? n2; 
    print(res); 
 }
+________________________________________________
+//Bitwise operator//
+void main() { 
+    var num1 = 10;
+    var num2 = 50;
+    var num3 =100;
+    print("W3Adda - Dart Bitwise Operators");
+    
+    //Bitwise AND
+    print("num1 & num2 = ${(num1 & num2)}");
+    
+    //Bitwise OR
+    print("num1 | num2 = ${(num1 | num2)}");
+    
+    //Bitwise XOR
+    print("num1 ^ num2 = ${(num1 ^ num2)}" );
+    
+    //Binary Complement Operator
+    print("~num1 = ${(~num1)}" );
+    
+    //Binary Left Shift Operator
+    num3 = num1 <<  2;
+    print("num1 << 1 = ${num3}");
+    
+    //Binary Right Shift Operator
+    num3 = num1 >>  2;
+    print("num1 >> 1  = ${num3}" );
+}
