@@ -101,3 +101,16 @@ void main() {
 void findPerimeter(int length, int breadth) => print("The perimeter is ${2 * (length + breadth)}");
 
 int getArea(int length, int breadth) => length * breadth;
+
+______________________________________________________________________________________
+
+
+// Dart function without Parameters and without return value.
+
+
+sayHelloWorld() {
+    print("Hello, World!");
+}
+void main(){ 
+  sayHelloWorld();
+}
