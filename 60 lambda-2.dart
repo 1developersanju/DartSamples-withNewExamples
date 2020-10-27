@@ -31,3 +31,18 @@ void addMyNumbers(int a, int b) {
 	var sum = a + b;
 	print(sum);
 }
+___________________________________________________________
+
+void main() {   
+
+   printMsg();   
+
+   print(test());   
+
+}    
+
+printMsg()=>  
+
+print("hello");   
+
+int test()=>123
