@@ -51,3 +51,25 @@ class Student {
 		print("@ sunday 11:00 pm ${this.name} is now sleeping");
 	}
 }
+
+__________________________________________________________________
+
+
+
+class Cat {
+    String name;
+    String color;
+  String food;
+}
+
+void main() {
+    var myPet = Cat();
+    myPet.name = 'Meowh';
+    myPet.color = 'white';
+  myPet.food="fish";
+
+    print(myPet);
+    print('Name of my $myPet is ${myPet.name}');
+    print('its color is ${myPet.color}');
+  print("my $myPet eats ${myPet.food}");
+}
