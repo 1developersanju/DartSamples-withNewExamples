@@ -135,3 +135,19 @@ void main(){
   obj.output();
 }
 
+______________________________________________-________--- _____________
+
+// enum keyword
+
+enum Try { 
+    
+  toComplete, byYourself 
+} 
+  
+void main() {  
+    
+  
+  for (Try theabove in Try.values) { 
+    print(theabove); 
+  } 
+}
