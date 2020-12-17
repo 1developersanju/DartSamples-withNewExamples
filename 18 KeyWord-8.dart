@@ -104,3 +104,34 @@ void main()
     hmm.printInfo(); 
 } 
 
+______________________________________________-________--- _____________
+
+// Super Constructor
+
+class PClass
+{
+   PClass(){
+	 print("Parent Class Constructor");
+   }
+}
+class SClass extends PClass
+{
+  SClass(){
+  
+    print("Sub Class Constructor");
+  }
+  
+  output(){
+    print("Hello frnds");
+  }
+   
+}
+
+void main(){
+  print("Super Constructor Example.");
+ 
+  SClass obj= new SClass();
+  //Calling sub class method 
+  obj.output();
+}
+
